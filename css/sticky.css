@@ -1,0 +1,11 @@
+.sticky {
+    border: 1px solid red;
+    position: sticky;
+    inset-block-start: 200px;
+    grid-area: phone;
+}
+
+.sticky img {
+    inline-size: var(--phoneInlineSize);
+    max-inline-size: 100%;
+}
