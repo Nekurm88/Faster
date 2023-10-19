@@ -30,10 +30,7 @@ body {
   color: var(--grey);
 }
 
-section {
-  block-size: 500px;
 
-}
 
 .grid {
   display: grid;
@@ -54,24 +51,27 @@ section {
 
 .inset-grid [class*="content"] {
   grid-area: content;
+  padding-inline-start: 22px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1366px) {
   :root {
-      --phoneInlineSize: 300px;
+      --phoneInlineSize: 288px;
       --gridTemplateColums: auto var(--phoneInlineSize) 1fr auto;
     }
-  }
-@media screen and (max-width: 1000px) {
+
+    .inset-grid [class*="content"] {
+      grid-area: content;
+      padding-inline-start: 60px;
+    }
+    
+}
+@media screen and (max-width: 812px) {
   :root {
       --phoneBlockSize: 500px;
       --phoneInlineSize: 264px;
       --gridTemplateColums: auto auto 1fr auto;
     }
-
-    /*section {
-      block-size: 772px;
-    }*/
 
     .grid {
       display: block;
@@ -79,9 +79,7 @@ section {
 
     .hero {
       block-size: auto;
-      /*padding-block: 50px;*/
       grid-row-start: initial;
-      /*padding-block-end: calc(var(--phoneBlockSize) / 2 + 2rem);*/
     }
     
     .press {
@@ -90,7 +88,9 @@ section {
     }
 
     .hero-content {
-      display: initial;
+      display: flex;
+      block-size: auto;
+      align-items: start;
     }
 
     .sticky {
@@ -105,5 +105,8 @@ section {
     .sticky img {
       max-block-size: 100%;
     }
-  
+    
+    .inset-grid [class*="content"] {
+      padding-inline-start: 0px;
+    }
 }

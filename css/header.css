@@ -6,7 +6,6 @@
     block-size: 86px;
     justify-content: space-between;
     align-items: center;
-    gap: 332px;
     padding-inline: 20px;
 }
 
@@ -37,9 +36,27 @@
     font: var(--button);
     border-radius: 8px;
     padding-inline: 16px;
-    padding-block: 8px;
+    padding-block: 12px;
+    cursor: pointer;
+    transition: scale(2s);
+}
+
+.header-button:active {
+    scale: .9;
 }
 
 .header-button:hover {
     box-shadow:  0 .125rem .625rem .125rem rgba(214, 212, 212, 0.587);
+}
+
+
+
+@media screen and (max-width: 812px) {
+    .menu a{
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
 }
