@@ -71,6 +71,7 @@
         font: var(--headline5);
         color: white;
         margin:0;
+        align-self: stretch;
     }
 
     .why p {
