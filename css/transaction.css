@@ -1,4 +1,62 @@
-.transactions {
-    block-size: 500px;   
-    background-color: chartreuse;
+.transactions  {
+    background: url(../images/fondo-planta.png) no-repeat right bottom;
+    background-color: #E8E8E6;
+    display: flex;
+    align-items: center;
+}
+
+
+.transactions h1 {
+    font: var(--headline2);
+    color: black;
+    margin: 0;
+}
+
+
+.transactions-content {
+    display: flex;
+    flex-direction: column;
+    max-inline-size: 500px;
+    gap: 16px
+}
+
+.phoner {
+    display: none;
+}
+
+.asda{
+    display: flex;
+    flex-direction: column;
+    grid-area: content;
+    gap: 20px;
+}
+
+.asda p {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 812px) {
+    .transactions {
+        background-image: none;
+        background-color: #E8E8E6;
+        block-size: 2000px;
+    }
+    
+    .phoner {
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        inline-size: 264px;
+    }
+    .asda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 20px;
+        padding-block-start: 400px;
+        gap: 64px
+    }
+
+
 }
