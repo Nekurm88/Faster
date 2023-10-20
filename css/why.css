@@ -60,7 +60,7 @@
         flex-direction: column;
         align-self: stretch;
         padding-block-start: 60px;
-        inline-size: auto;
+        max-inline-size: none;
         /*block-size: 280px;*/
         
         gap: 20px;
