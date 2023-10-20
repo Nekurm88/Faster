@@ -37,6 +37,15 @@
         /*block-size: 1100px;*/
     }
     
+    .press-content span{
+        padding-inline: 20px;
+    }
+
+    .press1 {
+        padding-inline: 20px;
+    }
+
+ 
     .press-logos {
         display: flex;
         flex-direction: column;
