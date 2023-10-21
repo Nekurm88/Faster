@@ -5,6 +5,8 @@
 @import './why.css';
 @import './sticky.css';
 @import './header.css';
+@import './logging.css';
+@import './card.css';
 
 :root {
   --white: #e2a3a3; 

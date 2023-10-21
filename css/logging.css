@@ -1,0 +1,60 @@
+.logging {
+padding-block-end: 80px;
+}
+
+.logging img {
+    inline-size: 371px;
+    block-size: auto;
+}
+
+.logging-content{ 
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 200px;
+}
+
+.text-log {
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 64px;
+    gap:24px;
+}
+
+.text-log h1{
+    font: var(--headline2);
+    color: black;
+    margin: 0;
+}
+
+.text-log p {
+    margin: 0;
+    color: var(--grey);
+}
+
+@media screen and (max-width: 812px) {
+    .logging {
+        padding-block-end: 64px;
+    }
+
+    .logging img {
+        inline-size: 320px;
+        block-size: auto;
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        inline-size: 264px;
+        margin: auto;
+        padding-block-start: 34px;
+        order: 2;
+    }
+
+    .text-log {
+        padding-inline: 20px;
+        order: 1;
+        align-self: stretch;
+    }
+
+    .logging-content {
+        padding-block-start: 64px;
+    }
+}

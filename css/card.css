@@ -1,0 +1,108 @@
+.card-section {
+    background: #ECEEF1;;
+    padding-inline: 20px;
+    padding-block-end: 80px;
+}
+
+.cards{
+    position: relative;
+    inline-size: 426px;
+    box-sizing: border-box;
+    padding-inline: 31.5px;
+    padding-block-start: 128px;
+    /*padding-block-end: 80px;*/
+    border-radius: 8px;
+    text-align: center; 
+    background: white;
+    box-shadow: 0 .25rem 2.75rem 0 rgba(0, 0, 0, 0.10);
+}
+
+.card-img {
+    inline-size: 100px;
+    block-size: auto;
+    position: absolute;
+    vertical-align: middle;
+    inset-block-start: 0;
+    inset-inline-start: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card-text {
+    text-align: center;
+    color: black;
+    font: var(--headline2);
+    margin: 0;
+    padding-block-start: 128px;
+    padding-block-end: 80px;
+}
+
+.card-content {
+    display: flex;
+    align-items: flex-end;
+    block-size: 490px;
+    gap: 24px;
+    overflow-x: auto;
+}
+
+.card-testimony {
+    block-size: 210px;
+    color: var(--black);
+    align-self: stretch;
+    overflow-y: auto;
+}
+
+.card-testimony p {
+    margin: 0;
+}
+
+.card-contact{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-username {
+    margin: 0;
+}
+
+.card-name{
+    font: var(--body1-bold);
+    margin: 0;
+    color: black;
+}
+
+.card-contact {
+    margin: 0;
+    color: var(--grey);
+    padding-block-end: 32px;
+}
+
+.cards.is-mobile {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 812px) {
+    .card-content {
+        flex-direction: column;
+        block-size: auto;
+        overflow-x: initial;
+    }
+
+    .cards {
+        flex: none;
+        inline-size: 100%;
+        min-inline-size: 100%;
+        margin-block-start: 60px;
+    }
+    
+    .cards.is-mobile{
+        display: block;
+    }
+    
+    .cards.is-mobile img {
+        transform: translateX(0%) translateY(37%);
+    }
+}
