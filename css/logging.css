@@ -59,5 +59,6 @@ padding-block-end: 80px;
 
     .logging-content {
         padding-block-start: 64px;
+        inline-size: auto;
     }
 }
