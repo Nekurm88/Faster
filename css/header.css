@@ -51,6 +51,7 @@
 
 .burguer {
     display: none;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 812px) {

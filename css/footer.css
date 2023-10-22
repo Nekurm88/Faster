@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+.footer a {
+    text-decoration: none;
+}
+
 .footernav li {
     text-decoration: none;
 }
@@ -32,4 +36,13 @@
         gap:64px;
         padding-inline: 16px;
     }
+
+    .footer p {
+        font: var(--caption);
+    }
+
+    .footernav li:nth-of-type(1) {
+        font: var(--button);
+    }
+
 }

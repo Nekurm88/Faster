@@ -11,6 +11,9 @@ padding-block-end: 80px;
     display: flex;
     flex-direction: column;
     padding-block-start: 200px;
+    inline-size: 500px;
+    align-self: stretch;
+    /*padding-inline-start: 30px;*/
 }
 
 .text-log {

@@ -26,7 +26,7 @@
   --body2-regular: 400 1rem/1.375rem Inter; 
   --body2-bold: 700 1rem/1.1875rem Inter;   
   --gridTemplateColums: 1fr var(--phoneInlineSize) 800px 1fr; 
-  --phoneInlineSize: 400px;
+  --phoneInlineSize: 420px;
 }
 
 @font-face {

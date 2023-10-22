@@ -63,10 +63,18 @@
     }
 
     .fast-content {
-        padding-inline: 53px;
+        padding-inline: 18px;
     } 
     
+    .fast p {
+        font: var(--body2-regular);
+    }
+
     .fast h1 {
     font: var(--headline5);
+    }
+
+    .singup {
+        inline-size: 240px;
     }
 }
