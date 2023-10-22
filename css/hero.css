@@ -58,7 +58,7 @@
     border-block-end: 1px solid currentcolor;
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 700px) {
     .hero-content {
         padding-block-start: 35px;
         padding-inline: 20px !important;

@@ -58,7 +58,11 @@ padding-block-end: 80px;
     }
 
     .logging-content {
-        padding-block-start: 64px;
+        padding-block-start: 40px;
         inline-size: auto;
+    }
+
+    .logging-content h1 {
+        font: var(--headline5);
     }
 }

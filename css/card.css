@@ -93,7 +93,7 @@
     
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 700px) {
     .card-content {
         flex-direction: column;
         block-size: auto;
@@ -113,5 +113,11 @@
     
     .cards.is-mobile img {
         transform: translateX(0%) translateY(37%);
+    }
+
+    .card-text {
+        font: var(--headline5);
+        text-align: center;
+        padding-inline: 10px;
     }
 }

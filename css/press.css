@@ -27,17 +27,21 @@
     margin: 0;
     padding-block-start: 64px;
     padding-block-end: 24px;
+    margin-block-end: 1px;
 }
 
 .press-content span {
     color: var(--gray);
 }
 
-@media screen and (max-width: 812px) {
-    .press {
-        /*block-size: 1100px;*/
+/*@media screen and (max-width: 1000px) {
+    .press-content h1 {
+        font: var(--headline2);
     }
-    
+}*/
+
+@media screen and (max-width: 700px) {
+      
     .press-content span{
         padding-inline: 20px;
     }
@@ -68,7 +72,7 @@
 
     .press1 {
         padding-block-start: 64px;
-        font: var(--headline2);
+        font: var(--headline5);
         color: black;
         margin: 0;
     }
