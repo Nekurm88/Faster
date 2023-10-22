@@ -39,9 +39,11 @@
 .card-content {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     block-size: 490px;
     gap: 24px;
     overflow-x: auto;
+    padding-inline: 20px;
 }
 
 .card-testimony {
@@ -82,9 +84,16 @@
     display: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .card-testimony p {
+        margin: 0;
+        font: var(--body2-regular);
+        text-overflow: hidden;
+    }
+    
+}
 
-
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 900px) {
     .card-content {
         flex-direction: column;
         block-size: auto;

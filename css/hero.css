@@ -23,6 +23,7 @@
     flex-direction: column;
     gap: 24px;
     max-inline-size: 672px;
+    align-self: stretch;
 }
 
 .text1 p {

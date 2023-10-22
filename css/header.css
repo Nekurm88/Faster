@@ -49,7 +49,9 @@
     box-shadow:  0 .125rem .625rem .125rem rgba(214, 212, 212, 0.587);
 }
 
-
+.burguer {
+    display: none;
+}
 
 @media screen and (max-width: 812px) {
     .menu a{
@@ -58,5 +60,33 @@
 
     .header-button {
         display: none;
+    }
+
+    .burguer {
+        display: block;
+        border: 1px solid transparent;
+        background: transparent;
+        padding-inline: 0;
+        /*background-image: url(../icons/Icon=hamburguer-button.svg);*/
+        block-size: 50px;
+        inline-size: 50px;
+        color: white;
+    }
+
+    .burguer i {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .icon-Iconhamburguer-button{
+        content: "\e909";
+    }
+
+    .burguer:hover {
+        box-shadow:  0 .125rem .625rem .125rem rgba(214, 212, 212, 0.587);
+    }
+
+    .burguer:active {
+        scale: .9;
     }
 }
