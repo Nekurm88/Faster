@@ -88,7 +88,7 @@ body {
 
 .inset-grid [class*="content"] {
   grid-area: content;
-  padding-inline-start: 22px;
+  /*padding-inline-start: 22px;*/
 }
 
 @media screen and (max-width: 1366px) {
@@ -99,7 +99,7 @@ body {
 
     .inset-grid [class*="content"] {
       grid-area: content;
-      padding-inline-start: 60px;
+      /*padding-inline-start: 60px;*/
     }
     
 }
