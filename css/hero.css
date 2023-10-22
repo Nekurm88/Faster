@@ -29,7 +29,8 @@
 .text1 p {
     margin-block-start: 0;
     color: var(--grey);
-    font: var(--body1-regular)
+    font: var(--body1-regular);
+
 }
 
 .button2 {
@@ -54,6 +55,7 @@
 .hero-content span {
     padding-block-start: 24px;
     color: var(--grey);
+    border-block-end: 1px solid currentcolor;
 }
 
 @media screen and (max-width: 812px) {
